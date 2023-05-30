@@ -12,4 +12,15 @@
 * sudo docker images(To view images present in docker)
 We can pull the images from website 
 
-
+## Commands to containerize Mysql in Docker
+* First pull the mqsl from docker hub
+  docker pull mysql
+* Build the connection between docker   
+  sudo docker run -d -p 3307:3306 --name mysqldb -e MYSQL_ROOT_PASSWORD=ttn -e MYSQL_DATABASE=test  mysql
+* sudo docker logs mysqldb
+* sudo docker ps -a (This tells what containers are running)
+* Command to remove the container from docker
+   sudo docker rm -f mysqldb
+* To go into container in docker
+  sudo docker exec -it container_id bash
+  
