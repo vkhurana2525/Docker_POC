@@ -10,6 +10,6 @@
 * sudo docker info
 * sudo docker run hello-world
 * sudo docker images(To view images present in docker)
-
+We can pull the images from website 
 
 
