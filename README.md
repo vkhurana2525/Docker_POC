@@ -23,4 +23,5 @@ We can pull the images from website
    sudo docker rm -f mysqldb
 * To go into container in docker
   sudo docker exec -it container_id bash
+* mysql -p
   
